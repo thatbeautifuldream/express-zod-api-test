@@ -7,6 +7,7 @@ const config = createConfig({
     logger.info("Serving the API documentation at https://example.com/docs");
     app.use(
       "/docs",
+      // @ts-ignore - scalar api reference is not typed
       apiReference({
         spec: {
           // Put your OpenAPI url here:
