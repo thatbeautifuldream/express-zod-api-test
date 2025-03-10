@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "ES2022",
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "strictNullChecks": true,
+    "types": ["vitest/globals"],
+    "moduleResolution": "Bundler"
+  }
+}

@@ -1,0 +1,4 @@
+node_modules
+dist
+example.documentation.yaml
+example.client.ts
